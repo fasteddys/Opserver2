@@ -1,2 +1,4 @@
 language: csharp
 solution: Opserver.sln
+script:
+  - msbuild /p:Configuration=Release Opserver.sln
